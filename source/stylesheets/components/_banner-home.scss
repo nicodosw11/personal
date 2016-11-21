@@ -1,0 +1,9 @@
+.main-container {
+
+  .banner-home {
+    background: linear-gradient(135deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.2) 50%), image-url('images/bwd.jpg');
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+  }
+}
