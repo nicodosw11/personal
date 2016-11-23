@@ -1,0 +1,67 @@
+.banner-resume{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), image-url('images/bonhomme.jpeg');
+  background-size: cover;
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  min-height: 500px;
+  color: #FFFFFF;
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.2);
+
+  &-content{
+  font-family: 'Satisfy', cursive;
+
+    h1{
+      font-size: 50px;
+    }
+
+    h3{
+      font-size: 30px;
+    }
+  }
+}
+
+.banner-resume-navbar{
+  height: 40px;
+  padding: 0px 30px;
+  margin-top: 15px;
+  transition: all 0.3s ease;
+
+  a{
+  color:#fff;
+  text-shadow: 0px 1px 1px rgba(1,1,1,0.6);
+  border: 3px solid #fff;
+  margin: 4px;
+  white-space: nowrap;
+  text-decoration: none;
+
+    &:hover{
+      background: rgba(55,55,55,0.25);
+    }
+  }
+}
+
+.main-navbar-item{
+  cursor: pointer;
+  padding: 10px 20px;
+  font-family: 'Oxygen';
+}
+
+.main-navbar-link{
+  color: white;
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  position: relative;
+  display: inline-block;
+}
+
+
+
+
+
+
