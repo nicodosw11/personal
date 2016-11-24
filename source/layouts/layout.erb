@@ -14,7 +14,10 @@
     <title><%= current_page.data.title || "The Middleman" %></title>
 
     <%= stylesheet_link_tag "all" %>
-    <%= javascript_include_tag  "all" %>
+
+    <meta property="og:title" content="Nicolas Dotto - Resume">
+    <meta property="og:description" content="Hello, I'm Nicolas Dotto, I'm a Data analyst +  Junior web developer and this is my resume.">
+    <meta property="og:site_name" content="Nicolas Dotto"/>
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- Leave those next 4 lines if you care about users using IE8 -->
@@ -28,6 +31,7 @@
 
     <%= partial "navbar" %>
     <%= yield %>
+    <%= javascript_include_tag  "all" %>
 
   </body>
 </html>

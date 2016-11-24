@@ -1,0 +1,69 @@
+/* - About - */
+.about-container {
+  padding: 25px;
+}
+
+.picture-container {
+  display: flex;
+  justify-content: center;
+}
+
+.picture-container2 {
+  display: flex;
+  justify-content: center;
+}
+
+
+.no-padding {
+   padding: 0 !important;
+    margin: 0 !important;
+}
+
+#title-about {
+   padding: 50px 0px 0px;
+}
+
+
+.about-content {
+  // padding: 30px;
+  margin: 30px 0 0;
+  text-align: left;
+  padding: 30px;
+}
+
+.about-container p{
+  color: #858585;
+}
+
+.profile-picture {
+  height: 40vh;
+  // min-height: 500px;
+  transform:rotate(7deg);
+}
+
+.data-science-picture {
+  height: 60vh;
+  // min-height: 500px;
+}
+
+.lewagon-picture {
+  height: 30px;
+  width: auto;
+  vertical-align: middle;
+}
+
+.link-to {
+  color: black;
+}
+
+.link-to:hover {
+  color: #D4312D;
+  text-decoration: none;
+}
+
+.logo-style {
+  color: #646464;
+}
+
+/*---------------------------*/
+
