@@ -1,0 +1,41 @@
+.project-page {
+  // margin: 20px;
+  padding: 50px 0;
+
+  p {
+    font-weight: lighter;
+    text-align: justify;
+  }
+  h3 {
+    font-weight: 600;
+  }
+
+
+  .macbook, video {
+    max-width: 400px;
+  }
+
+  .container-macbook {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .content-project {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+}
+
+.link-project {
+  color: #1EB5E2;
+  text-decoration: none;
+  font-weight: 400;
+  &:hover {
+    text-decoration: none;
+    color: #FF6863;
+  }
+}
+

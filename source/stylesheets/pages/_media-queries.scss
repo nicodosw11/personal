@@ -6,6 +6,46 @@
   .fullscreen-bg-video {
       display: none;
   }
+
+
+  .project-page {
+    .container-macbook {
+      // display: flex;
+      // justify-content: center;
+    }
+    .macbook, video {
+      max-height: 200px;
+    }
+
+
+    h3 {
+      // color: blue;
+      text-align: center;
+    }
+    p {
+      text-align: justify;
+      margin: auto 30px;
+    }
+  }
 }
 
+@media (min-width: 768px) and (max-width: 979px) {
+  .project-page {
+    .macbook, video {
+      max-height: 200px;
+    }
+
+
+    h3 {
+      font-size: 23px;
+      // color: green;
+      // text-align: center;
+    }
+    p {
+      font-size: 12px;
+      // text-align: justify;
+      // margin: auto 30px;
+    }
+  }
+}
 
