@@ -1,4 +1,12 @@
 @media (max-width: 767px) {
+  // .banner-resume {
+  //   background-attachment: scroll;
+  //   height: 100%;
+  //   width: 100%;
+  // }
+  .navbar-inner{
+    display: none;
+  }
   .wrapper-text-flexbox {
       background: image-url('images/bwd.jpg') center center / cover no-repeat;
   }
