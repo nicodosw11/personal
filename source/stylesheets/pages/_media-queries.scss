@@ -7,9 +7,14 @@
   .navbar-inner{
     display: none;
   }
-  .wrapper-text-flexbox {
-      background: image-url('images/bwd.jpg') center center / cover no-repeat;
+  .wrapper-text-flexbox, .banner-contact {
+    background: image-url('images/bwd.jpg') center center / cover no-repeat;
   }
+
+  .banner-resume {
+    background: image-url('images/bonhomme.jpeg') center center / cover no-repeat;
+  }
+
 
   .fullscreen-bg-video {
       display: none;
