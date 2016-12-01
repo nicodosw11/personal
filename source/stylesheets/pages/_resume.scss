@@ -88,6 +88,28 @@
   margin: 0;
   font-size: 17px;
 }
+
+.v-timeline > li .v-label .bullet {
+  font-size: 14px;
+  line-height: 24px;
+  margin-top: 10px;
+  margin-bottom: 0;
+  ul {
+    list-style-type: none;
+    text-align: justify;
+  }
+    li:before
+  {
+      content: "\2610";
+      margin-right:5px;
+  }
+
+  li:hover:before
+  {
+      content: "\2611";
+      margin-right:5px;
+  }
+}
 /* The triangle */
 .v-timeline > li .v-label:after {
   right: 100%;
