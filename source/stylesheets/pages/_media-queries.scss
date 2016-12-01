@@ -1,29 +1,106 @@
-@media (max-width: 767px) {
+@media (max-width: 479px) {
+
+  .navbar-inner{
+    display: none;
+  }
+
+  .wrapper-text-flexbox, .banner-contact {
+    background: image-url('images/bwd.jpg') center center / cover no-repeat;
+  }
+
+  .data-science-picture {
+    height: 50%;
+    width: 50%;
+  }
+
+  .fullscreen-bg-video {
+    display: none;
+  }
+
+  .project-page {
+    .container-macbook {
+      // display: flex;
+      // justify-content: center;
+    }
+    .macbook, video {
+      max-height: 150px;
+      max-width: 254px;
+    }
+
+
+    h3 {
+      // color: blue;
+      text-align: center;
+    }
+    p {
+      text-align: justify;
+      margin: auto 30px;
+    }
+  }
+
+  .banner-resume {
+    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), image-url('images/bonhomme.jpeg') left center / cover no-repeat;
+    background-attachment: scroll;
+
+    &-content {
+      font-family: 'Satisfy', cursive;
+
+        h1{
+          font-size: 25px;
+        }
+
+        h2 {
+          font-size: 17px;
+        }
+    }
+  }
+
+  .banner-resume-navbar{
+
+    a{
+      border: 1.5px solid #fff;
+    }
+
+
+    .main-navbar-link {
+      font-size: 7.5px;
+    }
+  }
+
+  .btn-round {
+    width: 30px;
+    height: 30px;
+  }
+
+  .btn-round i {
+    font-size: 15px;
+    top: 5px;
+    position: relative;
+  }
+}
+
+@media (min-width: 479px) and (max-width: 768px) {
   // .banner-resume {
   //   background-attachment: scroll;
   //   height: 100%;
   //   width: 100%;
   // }
-  .navbar-inner{
-    display: none;
-  }
-  .wrapper-text-flexbox, .banner-contact {
-    background: image-url('images/bwd.jpg') center center / cover no-repeat;
-  }
-
-  .banner-resume {
-    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), image-url('images/bonhomme.jpeg') left center / cover no-repeat;
-  }
-
   .data-science-picture {
-  height: 50%;
-  width: 50%;
+    height: 70%;
+    width: 70%;
   }
 
+  ////////////////////////////////////////
 
-  .fullscreen-bg-video {
-      display: none;
-  }
+
+
+
+
+
+
+  // .fullscreen-bg-video {
+  //     display: none;
+  // }
 
 
   .project-page {
@@ -33,6 +110,7 @@
     }
     .macbook, video {
       max-height: 200px;
+      max-width: 336px;
     }
 
 
