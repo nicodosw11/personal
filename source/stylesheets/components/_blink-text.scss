@@ -1,13 +1,20 @@
 .blink {
-  margin: auto;
-  width: 38em;
+  // margin: auto;
+  // width: 38em;
+    h1 {
+      white-space: nowrap;
+      font-size: 30px;
+      animation: type 4s steps(60, end);
+      -webkit-animation: type 4s steps(60, end);
+    }
 
-  h1, h2, p {
-    color: white;
-    white-space: nowrap;
-    overflow: hidden;
-    animation: type 4s steps(60, end);
-    -webkit-animation: type 4s steps(60, end) ;
+    p {
+      font-size: 1em;
+      color: white;
+      white-space: nowrap;
+      overflow: hidden;
+      animation: type 4s steps(60, end);
+      -webkit-animation: type 4s steps(60, end) ;
     }
 
   p:nth-child(1) {

@@ -2,6 +2,21 @@
   // .navbar-inner{
   //   display: none;
   // }
+  .welcome-text-intro{
+    position: relative;
+    h1 {
+      color: #fff;
+    }
+    h3 {
+      color: #fff;
+    }
+  }
+  .links{
+  a{
+    color:#fff;
+    border: 3px solid #fff;
+  }
+}
 
   .navbar-inner-link {
     color: #777;
@@ -20,11 +35,13 @@
   .top-bar{
     width: 80px;
     height: 8px;
+    background: rgba(255,255,255,0.9);
   }
 
   .bottom-bar{
     width: 80px;
     height: 8px;
+    background: rgba(255,255,255,0.9);
   }
 
   .experience-page {
@@ -41,7 +58,9 @@
   }
 
   .wrapper-text-flexbox, .banner-contact {
-    background: image-url('images/london.jpg') center center / cover no-repeat;
+    // background: image-url('images/london.jpg') center center / cover no-repeat;
+    // background: linear-gradient(135deg, rgba(48, 120, 159, 0.8) 0%, rgba(0, 0, 301, 0.2) 100%), url("/images/london.jpg") center center / cover no-repeat;
+    background: linear-gradient(135deg, rgba(35, 120, 159, 0.8) 50%, rgba(111, 138, 50, 0.2) 100%), image-url("images/london.jpg") center center/ cover no-repeat;
   }
 
   .wrapper-text-flexbox {
@@ -107,12 +126,12 @@
   .banner-resume-navbar{
 
     a{
-      border: 1.5px solid #fff;
+      border: 2px solid #fff;
     }
 
 
     .main-navbar-link {
-      font-size: 7.5px;
+      font-size: 8px;
     }
   }
 
@@ -133,13 +152,23 @@
     justify-content: space-between;
   }
 
-  .blink {
-    margin-top: 10px;
+  // .blink {
+  //   margin-top: 10px;
 
-    h1, p, .top-bar, .bottom-bar {
-    display: none;
+  //   h1, p, .top-bar, .bottom-bar {
+  //   display: none;
+  //   }
+  // }
+
+  .blink {
+    h1 {
+      font-size: 22px;
+    }
+    p {
+      font-size: 0.7em;
     }
   }
+
 
 }
 
@@ -194,6 +223,15 @@
       font-size: 12px;
       text-align: justify;
       margin: auto 30px;
+    }
+  }
+
+  .blink {
+    h1 {
+      font-size: 24px;
+    }
+    p {
+      font-size: 0.8em;
     }
   }
 }
