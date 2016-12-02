@@ -2,6 +2,21 @@
   // .navbar-inner{
   //   display: none;
   // }
+
+  .navbar-inner-link {
+    color: #777;
+    font-size: 9px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+
+  .navbar-inner-item {
+    cursor: pointer;
+    padding: 0 7px;
+    text-decoration: none;
+    font-family: 'Oxygen', cursive;
+  }
+
   .top-bar{
     width: 80px;
     height: 8px;
@@ -11,8 +26,6 @@
     width: 80px;
     height: 8px;
   }
-
-
 
   .experience-page {
     // background: #fff;
@@ -28,7 +41,7 @@
   }
 
   .wrapper-text-flexbox, .banner-contact {
-    background: image-url('images/bwd.jpg') center center / cover no-repeat;
+    background: image-url('images/london.jpg') center center / cover no-repeat;
   }
 
   .wrapper-text-flexbox {
@@ -137,6 +150,20 @@
   //   height: 100%;
   //   width: 100%;
   // }
+
+  .navbar-inner-link {
+    color: #777;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+
+  .navbar-inner-item {
+    cursor: pointer;
+    padding: 0 15px;
+    text-decoration: none;
+    font-family: 'Oxygen', cursive;
+  }
   .data-science-picture {
     height: 70%;
     width: 70%;
