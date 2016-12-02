@@ -1,8 +1,20 @@
 @media (max-width: 479px) {
+  // .navbar-inner{
+  //   display: none;
+  // }
 
-  .navbar-inner{
-    display: none;
-  }
+  .experience-page {
+      p {
+        font-size: 14px;
+      }
+      h3 {
+        font-size: 23px;
+      }
+    // background: #fff;
+    background: #1B1E25;
+    color: white;
+    position: relative;
+}
 
   .wrapper-text-flexbox, .banner-contact {
     background: image-url('images/bwd.jpg') center center / cover no-repeat;
@@ -26,7 +38,6 @@
       max-height: 150px;
       max-width: 254px;
     }
-
 
     h3 {
       // color: blue;
@@ -77,9 +88,25 @@
     top: 5px;
     position: relative;
   }
+
+  .blue-border-holder {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .blink {
+    margin-top: 10px;
+
+    h1, p, .top-bar, .bottom-bar {
+    display: none;
+    }
+  }
+
 }
 
 @media (min-width: 479px) and (max-width: 768px) {
+
   // .banner-resume {
   //   background-attachment: scroll;
   //   height: 100%;
@@ -89,14 +116,6 @@
     height: 70%;
     width: 70%;
   }
-
-  ////////////////////////////////////////
-
-
-
-
-
-
 
   // .fullscreen-bg-video {
   //     display: none;

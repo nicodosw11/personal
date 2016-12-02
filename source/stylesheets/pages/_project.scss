@@ -16,6 +16,10 @@
   //   max-width: 400px;
   // }
 
+  video {
+    object-fit: initial;
+  }
+
   .container-macbook {
     display: flex;
     justify-content: center;
