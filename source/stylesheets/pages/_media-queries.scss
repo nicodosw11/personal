@@ -2,24 +2,46 @@
   // .navbar-inner{
   //   display: none;
   // }
+  .top-bar{
+    width: 80px;
+    height: 8px;
+  }
+
+  .bottom-bar{
+    width: 80px;
+    height: 8px;
+  }
+
+
 
   .experience-page {
-      p {
-        font-size: 14px;
-      }
-      h3 {
-        font-size: 23px;
-      }
     // background: #fff;
     background: #1B1E25;
     color: white;
     position: relative;
-}
+    p {
+      font-size: 14px;
+    }
+    h3 {
+      font-size: 23px;
+    }
+  }
 
   .wrapper-text-flexbox, .banner-contact {
     background: image-url('images/bwd.jpg') center center / cover no-repeat;
   }
 
+  .wrapper-text-flexbox {
+    h1 {
+      font-size: 28px;
+    }
+    h3 {
+      font-size: 19px;
+    }
+    h4 {
+      font-size: 14px;
+    }
+  }
   .data-science-picture {
     height: 50%;
     width: 50%;
@@ -41,9 +63,12 @@
 
     h3 {
       // color: blue;
+      font-size: 23px;
       text-align: center;
     }
     p {
+      // color: green;
+      font-size: 12px;
       text-align: justify;
       margin: auto 30px;
     }
@@ -135,9 +160,11 @@
 
     h3 {
       // color: blue;
+      font-size: 23px;
       text-align: center;
     }
     p {
+      font-size: 12px;
       text-align: justify;
       margin: auto 30px;
     }
